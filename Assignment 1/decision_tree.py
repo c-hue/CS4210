@@ -2,7 +2,7 @@
 #-------------------------------------------------------------------------
 # AUTHOR: Caitlyn
 # FILENAME: decision_tree.py
-# SPECIFICATION: description of the program
+# SPECIFICATION: The program will read contact_lens.csv and output a decision tree.
 # FOR: CS 4210- Assignment #1
 # TIME SPENT: how long it took you to complete the assignment
 #-----------------------------------------------------------*/
@@ -21,6 +21,7 @@ with open('contact_lens.csv', 'r') as csvfile:
     for i, row in enumerate(reader):
         if i > 0: #skipping the header
             db.append (row)
+    print("read good")
 
 #encode the original categorical training features into numbers and add to the 4D array X.
 #--> add your Python code here
