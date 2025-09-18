@@ -21,19 +21,31 @@ with open('contact_lens.csv', 'r') as csvfile:
     for i, row in enumerate(reader):
         if i > 0: #skipping the header
             db.append (row)
-    print("read good")
 
 #encode the original categorical training features into numbers and add to the 4D array X.
 #--> add your Python code here
-# X =
-
 #encode the original categorical training classes into numbers and add to the vector Y.
-#--> addd your Python code here
-# Y =
+#--> add your Python code here
+
+age_map = {"Young": 1, "Prepresbyopic": 2, "Presbyopic": 3}
+spectacle_map = {"Myope": 1, "Hypermetrope": 2}
+astigmatism_map = {"No": 1, "Yes": 2}
+tear_map = {"Reduced": 1, "Normal": 2}
+class_map = {"No": 0, "Yes": 1}
+
+for row in db:
+    X.append([age_map[row[0]],
+              spectacle_map[row[1]],
+              astigmatism_map[row[2]],
+              tear_map[row[3]]]
+    )
+    Y.append(class_map[row[4]])
 
 #fitting the decision tree to the data using entropy as your impurity measure
-#--> addd your Python code here
+#--> add your Python code here
 #clf =
+clf = tree.DecisionTreeClassifier(criterion='entropy')
+clf = clf.fit(X,Y)
 
 #plotting the decision tree
 tree.plot_tree(clf, feature_names=['Age', 'Spectacle', 'Astigmatism', 'Tear'],
