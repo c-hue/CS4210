@@ -4,7 +4,7 @@
 # FILENAME: decision_tree.py
 # SPECIFICATION: The program will read contact_lens.csv and output a decision tree.
 # FOR: CS 4210- Assignment #1
-# TIME SPENT: how long it took you to complete the assignment
+# TIME SPENT: 2hrs
 #-----------------------------------------------------------*/
 
 #importing some Python libraries
