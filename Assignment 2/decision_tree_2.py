@@ -87,7 +87,7 @@ for ds in dataSets:
 
     #Find the average of this model during the 10 runs (training and test set)
     #--> add your Python code here
-        total_accuracy /= 10
+    total_accuracy /= 10
 
     #Print the average accuracy of this model during the 10 runs (training and test set).
     #Your output should be something like that: final accuracy when training on contact_lens_training_1.csv: 0.2
