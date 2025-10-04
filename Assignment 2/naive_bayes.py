@@ -4,7 +4,7 @@
 # SPECIFICATION: Read training set, output classification of each of the 10 instances
 #                from the test set if the confidence is >=0.75
 # FOR: CS 4210- Assignment #2
-# TIME SPENT: 
+# TIME SPENT: 1hr
 #-----------------------------------------------------------*/
 
 #IMPORTANT NOTE: YOU ARE ALLOWED TO USE ANY PYTHON LIBRARY TO COMPLETE THIS PROGRAM
