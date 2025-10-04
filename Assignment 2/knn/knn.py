@@ -3,7 +3,7 @@
 # FILENAME: knn.py
 # SPECIFICATION: Compute LOO-CV error rate for a 1NN classifier on spam/ham classification task.
 # FOR: CS 4210- Assignment #2
-# TIME SPENT: 2
+# TIME SPENT: 2hrs
 #-----------------------------------------------------------*/
 
 #IMPORTANT NOTE: YOU ARE ALLOWED TO USE ANY PYTHON LIBRARY TO COMPLETE THIS PROGRAM

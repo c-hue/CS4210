@@ -4,7 +4,7 @@
 # SPECIFICATION: Read three training files to train, test, and output the performance
 #                of the 3 models created on the test set.
 # FOR: CS 4210- Assignment #2
-# TIME SPENT: 2
+# TIME SPENT: 2hrs
 #-----------------------------------------------------------*/
 
 #IMPORTANT NOTE: YOU ARE ALLOWED TO USE ANY PYTHON LIBRARY TO COMPLETE THIS PROGRAM
