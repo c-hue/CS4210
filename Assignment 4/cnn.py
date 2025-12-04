@@ -3,7 +3,7 @@
 # FILENAME: cnn.py
 # SPECIFICATION: Convolutional Neural Network to classify 32x32 images of handwritten digits
 # FOR: CS 4210 - Assignment #4
-# TIME SPENT: how long it took you to complete the assignment
+# TIME SPENT: 1hr
 #-------------------------------------------------------------------------
 
 # Importing Python libraries
